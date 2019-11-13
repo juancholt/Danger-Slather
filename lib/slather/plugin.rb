@@ -30,6 +30,7 @@ module Danger
       @project.output_directory = options[:output_directory]
       @project.input_format = options[:input_format]
       @project.binary_file = options[:binary_file]
+      @project.binary_basename = options[:binary_basename]
       @project.decimals = options[:decimals]
       @project.configure
       @project.post if options[:post]
